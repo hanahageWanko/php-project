@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="FyM4Zto-Jr-bzXnglW38" name="ページ1">
+        <mxGraphModel dx="773" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="182" y="161" width="380" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="AbstractDisplay" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="200" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ display()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ getData()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ displyaHeader()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ displayBody()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;+ displayFooter()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="9">
+                    <mxGeometry y="24" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="11" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ListDisplay" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="360" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span&gt;+ displyaHeader()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;+ displayBody()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;+ displayFooter()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="11">
+                    <mxGeometry y="28" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="13" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="TableDisplay" style="swimlane;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="360" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span&gt;+ displyaHeader()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;+ displayBody()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;+ displayFooter()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="13">
+                    <mxGeometry y="28" width="120" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
