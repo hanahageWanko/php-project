@@ -1,0 +1,83 @@
+<mxfile host="65bd71144e">
+    <diagram id="Fia631ogE6X_l_nw2M9p" name="ページ1">
+        <mxGraphModel dx="1165" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="166" width="78" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="279.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="305" y="500"/>
+                            <mxPoint x="414" y="500"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="0.5163" y="3" relative="1" as="geometry">
+                        <mxPoint x="7" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="260" y="540"/>
+                            <mxPoint x="625" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="0.3806" y="1" relative="1" as="geometry">
+                        <mxPoint y="11" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="ReaderFactory" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="148.5" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;+ create()&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 13px&quot;&gt;- createReader()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="3">
+                    <mxGeometry x="5" y="26" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;&lt;interface&gt;&gt;&#10;Reader" style="swimlane;startSize=34;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="166" width="120" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;read()&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;display&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="6">
+                    <mxGeometry x="7" y="31" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="9" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="-0.5127" y="3" relative="1" as="geometry">
+                        <mxPoint y="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="XMLFileReader" style="swimlane;startSize=23;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="320" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;- filename&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;- handler&lt;/div&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct($filename)&lt;br&gt;+ read()&lt;br&gt;+ cnvert()&lt;br&gt;+ display()&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="9">
+                    <mxGeometry y="25" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="13" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                    <mxGeometry x="-0.3161" y="3" relative="1" as="geometry">
+                        <mxPoint x="-9" y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="CSVFileReader" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="334" y="320" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;- filename&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;- handler&lt;/div&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct($filename)&lt;br&gt;+ read()&lt;br&gt;+ cnvert()&lt;br&gt;+ display()&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=13;" vertex="1" parent="13">
+                    <mxGeometry x="6" y="25" width="160" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

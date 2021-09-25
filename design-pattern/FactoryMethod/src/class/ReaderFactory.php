@@ -21,7 +21,7 @@ class ReaderFactory
   /**
    * Readerクラスのサブクラスを条件判定し、生成する
    */
-  public function createReader($filename)
+  private function createReader($filename)
   {
     $poscsv = stripos($filename, '.csv');
     $posxml = stripos($filename, '.xml');
