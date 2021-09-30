@@ -1,0 +1,10 @@
+{
+  "header": ["注文ID", "商品ID"],
+  "item": [
+    { "order_id": "1", "item_id": [3] },
+    { "order_id": "2", "item_id": [1, 3] },
+    { "order_id": "3", "item_id": [1, 2, 3] },
+    { "order_id": "4", "item_id": [2] },
+    { "order_id": "5", "item_id": [2, 3] }
+  ]
+}
