@@ -1,6 +1,6 @@
 <?php
 require_once 'OrderDao.php';
-require_once 'order.php';
+require_once 'Order.php';
 
 class DbOrderDao implements OrderDao
 {

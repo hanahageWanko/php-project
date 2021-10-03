@@ -4,7 +4,7 @@ if (isset($_POST['factory'])) {
 
   switch ($factory) {
     case 1:
-      include_once 'http://127.0.0.1:8080/design-pattern/AbstractFactory/src/DbFactory.php';
+      include_once './class/DbFactory.php';
       $factory = new DbFactory();
       break;
     case 2:
@@ -23,8 +23,8 @@ if (isset($_POST['factory'])) {
   $order = $order_dao->findById($order_id);
   echo 'ID=' . $order_id . 'の注文情報は次の通りです。';
   echo '<ul>';
-  foreach ($order->getItems() as $item) {
-    echo '<li>' . $item['ovject']->getName();
+  foreach ($order->getItem() as $item) {
+    echo '<li>' . $item['object']->getName();
   }
   echo '</ul>';
 }
