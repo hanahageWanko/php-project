@@ -1,14 +1,38 @@
 <mxfile host="65bd71144e">
     <diagram id="6EK2_5ozKxKUmW_yJdAG" name="ページ1">
-        <mxGraphModel dx="1058" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1969" dy="2322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1530" y="-125"/>
+                            <mxPoint x="1530" y="-180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1530" y="-125"/>
+                            <mxPoint x="1530" y="146"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="930" y="-295"/>
+                            <mxPoint x="930" y="-226"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="2" value="client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="280" width="100" height="30" as="geometry"/>
+                    <mxGeometry x="1550" y="-310" width="100" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="&lt;&lt; interface &gt;&gt;&#10;DaoFactory" style="swimlane;startSize=40;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="245" width="200" height="100" as="geometry"/>
+                    <mxGeometry x="1240" y="-230" width="200" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="+ createItemDao&lt;br&gt;+ createOrderDao" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="3" vertex="1">
                     <mxGeometry x="10" y="50" width="180" height="40" as="geometry"/>
@@ -21,8 +45,26 @@
                         <mxPoint x="8" y="18" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="920" y="-180"/>
+                            <mxPoint x="920" y="-153"/>
+                            <mxPoint x="450" y="-153"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="920" y="-180"/>
+                            <mxPoint x="920" y="219"/>
+                            <mxPoint x="450" y="219"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="5" value="DbFactory" style="swimlane;startSize=30;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="255" width="200" height="80" as="geometry"/>
+                    <mxGeometry x="950" y="-220" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="+ createItemDao()&lt;br&gt;+ createOrderDao()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="5" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="38" as="geometry"/>
@@ -35,8 +77,17 @@
                         <mxPoint x="2" y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="-45"/>
+                            <mxPoint x="900" y="-410"/>
+                            <mxPoint x="450" y="-410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="13" value="MockFactory" style="swimlane;startSize=30;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="390" width="200" height="80" as="geometry"/>
+                    <mxGeometry x="950" y="-85" width="200" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="+ createItemDao()&lt;br&gt;+ createOrderDao()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="13" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="38" as="geometry"/>
@@ -53,85 +104,96 @@
                 <mxCell id="20" value="+ findById( $item_id )" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="19" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="27" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="21" target="19">
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="21" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+                <mxCell id="26" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
                     <mxGeometry x="-0.1823" relative="1" as="geometry">
                         <mxPoint x="5" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="21" target="45">
+                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" source="21" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="DbOrderDao" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="21" value="DbOrderDao" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="350" y="92" width="200" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="- $orders&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct( ItemDao )&lt;br&gt;+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="21">
+                <mxCell id="22" value="- $orders&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct( ItemDao )&lt;br&gt;+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="21" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="27" target="17">
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="27" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Implemnts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="31">
+                <mxCell id="32" value="Implemnts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31" vertex="1" connectable="0">
                     <mxGeometry x="-0.3812" y="2" relative="1" as="geometry">
                         <mxPoint x="13" y="10" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="27" target="41">
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" source="27" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="DbItemDao" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="27" value="DbItemDao" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="350" y="-280" width="200" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="- $orders&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="27">
+                <mxCell id="28" value="- $orders&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="27" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="67" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="33" target="19">
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="33" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="35">
+                <mxCell id="36" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="35" vertex="1" connectable="0">
                     <mxGeometry x="-0.0142" y="4" relative="1" as="geometry">
                         <mxPoint x="-9" y="-90" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="33" target="45">
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" source="33" target="45" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="MockOrderDao" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="33" value="MockOrderDao" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="350" y="-41" width="200" height="61" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="33">
+                <mxCell id="34" value="+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="33" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="27" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="37" target="17">
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="37" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Implemnts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="39">
+                <mxCell id="40" value="Implemnts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="39" vertex="1" connectable="0">
                     <mxGeometry x="-0.4228" y="2" relative="1" as="geometry">
                         <mxPoint x="-7" y="-33" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="37" target="41">
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;dashed=1;" parent="1" source="37" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="MockItemDao" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="37" value="MockItemDao" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="350" y="-390" width="200" height="61" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="37">
+                <mxCell id="38" value="+ findById()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="37" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="27" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="Item" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="41" value="Item" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="70" y="-370" width="200" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="- $id&lt;br&gt;- $name&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ getId()&lt;br&gt;+ getName()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="41">
+                <mxCell id="42" value="- $id&lt;br&gt;- $name&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ getId()&lt;br&gt;+ getName()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="41" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="97" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="Order" style="swimlane;startSize=30;" vertex="1" parent="1">
+                <mxCell id="45" value="Order" style="swimlane;startSize=30;" parent="1" vertex="1">
                     <mxGeometry x="70" y="-15" width="200" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="- $id&lt;br&gt;- $items&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ addItem( Item )&lt;br&gt;+ getItem()&lt;br&gt;+ getId()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="45">
+                <mxCell id="46" value="- $id&lt;br&gt;- $items&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ __construct()&lt;br&gt;+ addItem( Item )&lt;br&gt;+ getItem()&lt;br&gt;+ getId()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="45" vertex="1">
                     <mxGeometry x="10" y="33" width="180" height="97" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="-45" as="sourcePoint"/>
+                        <mxPoint x="450" y="-45" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="900" y="-45"/>
+                            <mxPoint x="900" y="-65"/>
+                            <mxPoint x="450" y="-65"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
