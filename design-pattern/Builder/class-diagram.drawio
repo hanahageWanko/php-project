@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="LjUhYFD9iiwBFd0Xp7RI" name="ページ1">
+        <mxGraphModel dx="568" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=diamond;startFill=0;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Director" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="245" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Construct()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="10" y="30" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Builder" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="245" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="BuildPart()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="14" y="30" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="1" source="10" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ConcreateBuilder" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="380" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="BuildPart()&lt;br&gt;GetResult()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="10">
+                    <mxGeometry x="8" y="31" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Template Diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="210" width="110" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
