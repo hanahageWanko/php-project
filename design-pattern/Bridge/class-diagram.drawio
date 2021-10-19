@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="BPoFTxdL8k3kD7XcHgM_" name="ページ1">
+        <mxGraphModel dx="738" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Client" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="245" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="aggrigate ▷" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="-0.2877" relative="1" as="geometry">
+                        <mxPoint x="24" y="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Abstraction" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="214" y="210" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="- Implementor：Implementor&lt;br&gt;&lt;hr id=&quot;null&quot;&gt;+ Operation()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="15" y="35" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Implementor" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="705" y="230" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+OperationImp()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="6">
+                    <mxGeometry x="7" y="31" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="11" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ConcreteImplementor" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="370" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="OperationImp()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="11">
+                    <mxGeometry x="30" y="31" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="14" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="RefinedAbstraction" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="234" y="370" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="AnotherOperation()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="14">
+                    <mxGeometry x="20" y="31" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="282" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="340"/>
+                            <mxPoint x="390" y="282"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Implementor -&amp;gt; OperationImp()" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="320" width="220" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
